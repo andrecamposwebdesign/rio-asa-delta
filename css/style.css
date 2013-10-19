@@ -42,6 +42,7 @@ ul{padding-left:0;}
 .hanggliding4{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1294px;height:116px;width:135px;z-index:2;left:1171px;top:450px;}
 .hanggliding5{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1994px;height:116px;width:135px;z-index:2;left:1571px;top:450px;}
 .hanggliding6{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -2125px;height:118px;width:135px;z-index:2;left:289px;top:320px;}
+.logo-center{position:absolute;background-image:url('../img/sprite.png');background-position: 0px 0px;height:138px;width:289px;z-index:2;left:109px;top:320px;}
 
 .cloud2{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1587px;height:219px;width:372px;z-index:3;left:650px;top:350px;}
 

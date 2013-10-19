@@ -43,8 +43,11 @@ $(document).ready(function() {
     left: 0,
     top:200,
   }, 23500 );
-  $( ".hanggliding6" ).delay( 37000 ).animate({
+  $( ".hanggliding6" ).delay( 34000 ).animate({
     left: 1571,
+  }, 4500 );
+  $( ".logo-center" ).delay( 12000 ).animate({
+    left: 936,
   }, 8500 );
 
 
