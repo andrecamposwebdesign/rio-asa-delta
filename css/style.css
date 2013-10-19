@@ -1,0 +1,114 @@
+body{margin-top:0;margin-left:0;margin-right:0;}
+body {background: linear-gradient(to bottom, #fff 0%,#bbb 100%);}
+.container{background-color:#fff;width:60%;}
+
+.success-message{color:#1a2f4d;font-size:20px;}
+
+
+.loading { position:fixed; left:0; top:0; width:100%; height:100%;background-color:transparent;z-index:2;background-color:#f4f4f4;
+opacity:0.7;}
+.loading .complete-loader{margin-top: 15%;margin-left: 45%;}
+.loading img{margin-left: 100px;}
+.logo-loader{background-image:url('../img/sprite.png');background-position:0px -1110px;height: 90px;}
+
+/*HEADER*/
+.header{background-color:#fff;box-shadow: 1px 5px 5px #ddd;position:relative;right:0;z-index: 1;}
+.header .row:first-child{margin-top:35px;}
+
+/*Logo*/
+.logo{background-image:url('../img/sprite.png');background-position: 0px 0px;height: 135px;}
+
+/*Call today*/
+.tel .call-today{color:#adbcd1;font-size:24px;}
+.tel .tel-number{color:#1a2f4d;font-size:28px;display:inline-block;}
+.tel{text-align:right;float:right;}
+
+/*Menu*/
+.selected a{color:#adbcd1;}
+ul li{text-decoration:none;display:inline-block;}
+li a{color:#1a2f4d;font-size:16px;margin-right:20px;font-weight:bold;font-family:serif;}
+li:last-child a{margin-right:0;}
+li a:hover{text-decoration:none;border-bottom:3px solid #1a2f4d;}
+.menu{margin: 5px 0 5px;text-align:right;float:right;}
+ul{padding-left:0;}
+
+/*HOME*/
+/*Banner*/
+.banner{background-image:url('../img/sprite.png');background-position: 61px -207px;height:800px;display:none;}
+
+.hanggliding1{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1053px;height:116px;width:135px;z-index:2;left:604px;top:464px;}
+.hanggliding2{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1155px;height:118px;width:135px;z-index:2;left:499px;top:270px;}
+.hanggliding3{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1242px;height:85px;width:135px;z-index:2;left:940px;top:250px;}
+.hanggliding4{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1294px;height:116px;width:135px;z-index:2;left:1171px;top:450px;}
+.hanggliding5{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1994px;height:116px;width:135px;z-index:2;left:1571px;top:450px;}
+.hanggliding6{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -2125px;height:118px;width:135px;z-index:2;left:289px;top:320px;}
+
+.cloud2{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1587px;height:219px;width:372px;z-index:3;left:650px;top:350px;}
+
+.cloud1{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1420px;height:141px;width:350px;z-index:1;left:940px;top:350px;}
+.cloud3{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1797px;height:197px;width:430px;z-index:1;left:500px;top:350px;}
+.cloud4{position:absolute;background-image:url('../img/sprite.png');background-position: 0px -1420px;height:163px;width:430px;z-index:3;left:170px;top:290px;}
+
+
+/*Areas*/
+.practice-area{color:#1a2f4d;font-size:22px;}
+.area-examples{color:#adbcd1;font-size:16px;}
+.areas{background-image:url('../img/sprite.png');background-position: 236px -63px;margin-bottom:10px;}
+.area-click:hover{background-color:#eee;box-shadow:2px -2px 5px #eee;outline:3px solid #aaa;}
+.area-click{cursor:pointer;padding:5px 20px 10px;max-width:177px;}
+.areas:last-child{background-image:none;}
+.practice-area-preview{color:#666;font-size:13px;padding:10px 0;}
+
+.audience-illustration{background-image:url('../img/sprite.png');background-position: -1px -1620px;}
+.retirement-illustration{background-image:url('../img/sprite.png');background-position: 0px -1729px;}
+.family-illustration{background-image:url('../img/sprite.png');background-position: -1px -1389px;}
+.criminal-illustration{background-image:url('../img/sprite.png');background-position: -1px -1505px;}
+.criminal-illustration,.family-illustration, .retirement-illustration, .audience-illustration{margin-top:10px;height:101px;border: 1px solid #bbb;box-shadow: 1px 1px 3px #aaa;max-width: 136px;}
+
+
+/*AREAS SECTION*/
+.area-arrow{font-size:13px;}
+.panel-body{color:#666}
+
+/*PROFILE*/
+.attorney-picture{background-image:url('../img/sprite.png');background-position: -1px -1899px;height:200px;}
+.attorney-name{font-size:20px;}
+.attorney-profile{color:#666;margin:10px 0;}
+
+/*FOOTER*/
+.logo-trasparent{opacity:0.75;background-image:url('../img/sprite.png');
+background-position: 0px 0px;height: 95px;width:305px;}
+.contact{margin:20px 0;}
+.copyright{color:#adbcd1;}
+.especialies{margin-top: 10px;display:none;}
+.footer{background-color:#fff;box-shadow: 1px -5px 5px #ddd;position:relative;width:100%;
+	left:0px;bottom:0px;color:#1a2f4d;font-size:14px;padding: 30px 0;}
+
+/*MEDIA QUERY*/
+
+@media (max-width: 1279px) { .areas{padding-left:0;background-image:none;} }
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 979px) { 
+	.areas{padding-left:0;background-image:none;margin-bottom:10px;}
+	.container{width:100%;}
+	.address, .phones{margin-bottom:20px;}
+	.tel{float:left;}
+	.logo{background-position: 0px -1192px;}
+	.logo-trasparent{background-position: 0px -1192px;}
+	li a{font-size:18px;}
+	li{margin-bottom:10px;}
+	.header .row:first-child{margin-top:10px;}
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ul li{display:block;}
+	.menu{float:left!important;text-align:left;}
+	.tel{float:left!important;text-align:left;}
+ }
+
+/* Landscape phones and down */
+@media (max-width: 277px) {
+	.logo{background-position: 0px -1264px;}
+	.logo-trasparent{background-position: 0px -1264px;}
+ }
