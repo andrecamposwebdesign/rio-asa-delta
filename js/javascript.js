@@ -1,6 +1,17 @@
 
 
 
+$(".faq, .tandemflight, .blog, .contact, .abouthangglide, .aboutinstructors, .aboutrio, .photos, .videos").click(function() {
+    $( ".animation" ).fadeOut( 2500 );
+});
+
+$(".home").click(function() {
+    $( ".animation" ).fadeIn( 2500 );
+});
+
+$(".home").click(function() {
+    $( ".faq-template, .tandemflight-template, .blog-template, .contact-template, .abouthangglide-template, .aboutinstructors-template, .aboutrio-template, .photos-template, .videos-template" ).fadeOut( 2500 );
+});
 
 
 $(document).ready(function() {
@@ -24,30 +35,35 @@ $(window).load(function() {
 });
 
 
-$(document).ready(function() {
+$("document").ready(function() {
   $( ".hanggliding1" ).animate({
-    left: 1571,
+    left: 2071,
     top:450,
   }, 33500 );
   $( ".hanggliding2" ).animate({
-    left: 1471,
+    left: 2071,
   }, 113500 );
   $( ".hanggliding3" ).animate({
-    left: 0,
+    left: -200,
   }, 113500 );
   $( ".hanggliding4" ).animate({
-    left: 0,
+    left: -200,
     top:200,
   }, 53500 );
   $( ".hanggliding5" ).animate({
-    left: 0,
+    left: -200,
     top:200,
   }, 23500 );
   $( ".hanggliding6" ).delay( 34000 ).animate({
-    left: 1571,
+    left: 2071,
   }, 4500 );
-  $( ".logo-center" ).delay( 12000 ).animate({
-    left: 936,
+  $( ".logo-center" ).delay( 0 ).animate({
+    left: 2036,
+    
+  }, 43500 );
+  $( ".logo-center img" ).delay( 0 ).animate({
+    height:70,
+    
   }, 8500 );
 
 
@@ -64,4 +80,7 @@ $(document).ready(function() {
   $( ".cloud4" ).animate({
     left: 8471,
   }, 1173500 );
+  $( ".cloud5" ).animate({
+    left: 8471,
+  }, 1673500 );
 });
